@@ -71,15 +71,20 @@ export default {
   margin: 100px auto;
   padding: 40px;
   border: 1px solid #ccc;
-  border-radius: 8px;
+  border-radius: 16px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   font-family: "Roboto", serif;
   background-color: rgb(216, 217, 219);
-  text-align: center;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+
+  h1{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
 }
 
 .form-group {
   margin-bottom: 15px;
+  text-align: center;
 }
 
 label {
